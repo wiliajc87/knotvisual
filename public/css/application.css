@@ -1,3 +1,27 @@
+.navbar {
+  border: none;
+  height: 100px;
+  background-color: white;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+a.navbar-left{
+  margin-left: 12%;
+}
+
+a.navbar-right{
+  margin-right: 15%;
+}
+
+a.navbar-left, a.navbar-right {
+  color: black;
+  font-size: 2em;
+  line-height: 100px
+}
+
+a.navbar-left:hover, a.navbar-right:hover {
+  text-decoration: none;
+}
 .navbar-header {
   float: left;
   padding: 15px;
@@ -6,6 +30,9 @@
 }
 .navbar-brand {
   float:none;
+  color: black;
+  font-size: 4em;
+  line-height: 100px
 }
 
 .block {
