@@ -18,6 +18,8 @@ gem 'rake'
 
 gem 'shotgun'
 
+gem 'sinatra-twitter-bootstrap', '~> 2.3.3'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
