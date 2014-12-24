@@ -35,21 +35,55 @@ a.navbar-left:hover, a.navbar-right:hover {
   line-height: 100px
 }
 
-.block {
+.col1, .col2, .col3, .col4{
   text-align: center;
-  background-color: red;
   min-width: 20%;
   max-width: 20%;
-  min-height: 200px;
-  margin-left: 4%;
-  margin-bottom: 60px;
+  min-height: 230px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.col1 {
+    margin-left: 8%;
+}
+
+.col2, .col3, .col4 {
+  margin-left: 1%;
+}
+
+#block1 {
+  background-image: url("http://cdn.bleedingcool.net/wp-content/uploads/2014/11/grootbaby.jpg");
+  background-repeat: none;
+}
+#block3 {
+  background-repeat: none;
+  background-image: url("http://img3.wikia.nocookie.net/__cb20140319033403/marvelcinematicuniverse/images/2/28/Rocket_Raccoon_2.png");
+}
+
+
+.designed {
+  background-color: #336699;
+}
+
+.interior {
+  background-color: #FFCC66;
+}
+
+.decorative{
+  background-color: #003366;
 }
 
 .desc {
+  color: white;
   text-align: center;
-  background-color: white;
+  font-size: 1.2em;
   min-width: 100%;
   min-height: 20px;
   margin-bottom: 4%;
   margin-top: 96%;
+}
+
+footer {
+  text-align: center;
 }
