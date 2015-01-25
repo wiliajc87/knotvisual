@@ -6,17 +6,17 @@
 }
 
 a.navbar-left{
-  margin-left: 12%;
+  margin-left: 10%;
 }
 
 a.navbar-right{
-  margin-right: 15%;
+  margin-right: 10%;
 }
 
 a.navbar-left, a.navbar-right {
   color: black;
   font-size: 2em;
-  line-height: 100px
+  line-height: 100px;
 }
 
 a.navbar-left:hover, a.navbar-right:hover {
@@ -32,33 +32,32 @@ a.navbar-left:hover, a.navbar-right:hover {
   float:none;
   color: black;
   font-size: 4em;
-  line-height: 100px
+  line-height: 100px;
 }
 
 .col1, .col2, .col3, .col4{
   text-align: center;
-  min-width: 20%;
-  max-width: 20%;
-  min-height: 230px;
-  margin-bottom: 10px;
+  min-width: 17%;
+  max-width: 17%;
+  min-height: 183px;
+  margin-bottom: 2px;
   border: 1px solid black;
 }
 
 .col1 {
-    margin-left: 8%;
+    margin-left: 16%;
 }
 
 .col2, .col3, .col4 {
-  margin-left: 1%;
+  margin-left: 2px;
 }
 
 #block1 {
-  background-image: url("http://cdn.bleedingcool.net/wp-content/uploads/2014/11/grootbaby.jpg");
-  background-repeat: none;
+  background-image: "/Users/jordy_williams14/Desktop/knotvisual/public/imgs/29.jpg";
 }
+
 #block3 {
-  background-repeat: none;
-  background-image: url("http://img3.wikia.nocookie.net/__cb20140319033403/marvelcinematicuniverse/images/2/28/Rocket_Raccoon_2.png");
+
 }
 
 
@@ -77,10 +76,10 @@ a.navbar-left:hover, a.navbar-right:hover {
 .desc {
   color: white;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
   min-width: 100%;
-  min-height: 20px;
-  margin-bottom: 4%;
+  min-height: 10px;
+  margin-bottom: 3%;
   margin-top: 96%;
 }
 
