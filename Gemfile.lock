@@ -65,6 +65,8 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+    sinatra-advanced-routes (0.5.3)
+      sinatra (~> 1.0)
     sinatra-contrib (1.4.2)
       backports (>= 2.0)
       multi_json
@@ -72,13 +74,23 @@ GEM
       rack-test
       sinatra (~> 1.4.0)
       tilt (~> 1.3)
+    sinatra-export (1.0.1)
+      rack
+      rack-test
+      rake
+      sinatra
+      sinatra-advanced-routes
+      term-ansicolor
     sinatra-twitter-bootstrap (2.3.3)
+    term-ansicolor (1.3.0)
+      tins (~> 1.0)
     thin (1.6.3)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0)
       rack (~> 1.0)
     thread_safe (0.3.4)
     tilt (1.4.1)
+    tins (1.3.3)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     xpath (2.0.0)
@@ -101,5 +113,6 @@ DEPENDENCIES
   shoulda-matchers
   sinatra
   sinatra-contrib
+  sinatra-export
   sinatra-twitter-bootstrap (~> 2.3.3)
   thin

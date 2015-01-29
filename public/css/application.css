@@ -53,13 +53,40 @@ a.navbar-left:hover, a.navbar-right:hover {
 }
 
 #block1 {
-  background-image: "/Users/jordy_williams14/Desktop/knotvisual/public/imgs/29.jpg";
+  background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/29.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 #block3 {
-
+  background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/Bardesign2_2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
+#block6 {
+  background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/coffeetable1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#block8 {
+  background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/DSC00640.JPG");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#block9 {
+  background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/IMG00035.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#block11 {
+  background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/Madison%20Cafe2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 
 .designed {
   background-color: #336699;
@@ -79,10 +106,18 @@ a.navbar-left:hover, a.navbar-right:hover {
   font-size: 1em;
   min-width: 100%;
   min-height: 10px;
-  margin-bottom: 3%;
-  margin-top: 96%;
+  margin-bottom: 96%;
+  margin-top: 3%;
+  display: none;
 }
 
 footer {
   text-align: center;
+}
+
+.featherlight {
+  max-width: 70%;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 3%;
 }
