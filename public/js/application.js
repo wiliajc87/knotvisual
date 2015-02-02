@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  if ($(window).width() > 1000) {
   $('#block1').mouseenter(function() {
     console.log('happened');
     $( "#desc1" ).fadeIn("slow");
@@ -54,5 +55,14 @@ $(document).ready(function() {
   $('.gallery4').featherlightGallery();
   $('.gallery5').featherlightGallery();
   $('.gallery6').featherlightGallery();
+};
+});
 
+$(document).ready(function() {
+  $('.gallery1').featherlightGallery();
+  $('.gallery2').featherlightGallery();
+  $('.gallery3').featherlightGallery();
+  $('.gallery4').featherlightGallery();
+  $('.gallery5').featherlightGallery();
+  $('.gallery6').featherlightGallery();
 });

@@ -1,37 +1,50 @@
+body {
+  background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/grain.jpg");
+}
+
 .navbar {
   border: none;
-  height: 100px;
   background-color: white;
   font-family: 'Cinzel Decorative', cursive;
 }
 
-a.navbar-left{
-  margin-left: 10%;
+ul {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
 }
 
-a.navbar-right{
-  margin-right: 10%;
-}
-
-a.navbar-left, a.navbar-right {
-  color: black;
-  font-size: 2em;
-  line-height: 100px;
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 a.navbar-left:hover, a.navbar-right:hover {
   text-decoration: none;
-}
-.navbar-header {
-  float: left;
-  padding: 15px;
-  text-align: center;
-  width: 100%;
-}
-.navbar-brand {
-  float:none;
   color: black;
-  font-size: 4em;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 0;
+  left: 35.5%;
+  color: black;
+  font-size: 3em;
+}
+
+.navbar-left {
+  position: absolute;
+  top: 0;
+  right: 15%;
+  color: black;
+  font-size: 2em;
+  line-height: 100px;
+}
+.navbar-right {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  color: black;
+  font-size: 2em;
   line-height: 100px;
 }
 
@@ -49,43 +62,36 @@ a.navbar-left:hover, a.navbar-right:hover {
 }
 
 .col2, .col3, .col4 {
-  margin-left: 2px;
+  margin-left: 0.2%;
+}
+
+#block1, #block3, #block6, #block8, #block9, #block11 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 #block1 {
   background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/29.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 #block3 {
   background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/Bardesign2_2.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 #block6 {
   background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/coffeetable1.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 #block8 {
   background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/DSC00640.JPG");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 #block9 {
   background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/IMG00035.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 #block11 {
   background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/Madison%20Cafe2.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 .designed {
@@ -120,4 +126,120 @@ footer {
   margin-left: 15%;
   margin-top: 10%;
   margin-bottom: 3%;
+}
+
+.lightbox {
+  display: none;
+}
+
+.icons {
+  margin-left: 15%;
+}
+.bookoffaces {
+  color: #336699;
+}
+.tweeter {
+  color: #FFCC66;
+}
+.envel {
+  color: #003366;
+}
+
+
+
+
+
+
+ @media screen and (max-width: 1000px) {
+  #block1, #block3, #block6, #block8, #block9, #block11 {
+    max-width: 50%;
+    min-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5px;
+  }
+  .desc {
+    display: inline-block;
+  }
+  #block2, #block4, #block5, #block7, #block10, #block12 {
+    display: none;
+  }
+  .navbar-brand {
+    left: 27%;
+  }
+  a.navbar-left{
+    font-size: 0.7em;
+  }
+
+  a.navbar-right{
+    font-size: 0.7em;
+  }
+
+
+  a.navbar-left, a.navbar-right {
+    color: black;
+    font-size: 2em;
+    line-height: 40px;
+  }
+
+  a.navbar-left:hover, a.navbar-right:hover {
+    text-decoration: none;
+  }
+  .navbar-header {
+    float: left;
+    padding: .3%;
+    text-align: center;
+    width: 100%;
+  }
+  .navbar-brand {
+    float:none;
+    color: black;
+    font-size: 3em;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  a.navbar-left{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+  a.navbar-right{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .navbar-brand {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  a.navbar-left{
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+  a.navbar-right{
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  .navbar-brand {
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+}
+
+@media screen and (max-width: 345) {
+  a.navbar-left, a.navbar-right{
+    font-size: .5em;
+    top: 0;
+}
+  .navbar-brand {
+    font-size: 5em;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 200px;
+  }
 }
