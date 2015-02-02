@@ -1,11 +1,18 @@
 body {
   background-image: url("https://raw.githubusercontent.com/wiliajc87/knotvisual/master/public/imgs/grain.jpg");
+    color: #003366;
+
 }
 
 .navbar {
   border: none;
-  background-color: white;
+  background-color: none;
+  color: #003366;
   font-family: 'Cinzel Decorative', cursive;
+}
+.navbar-default {
+  background-color: transparent;
+  color: #003366;
 }
 
 ul {
@@ -20,14 +27,14 @@ h1 {
 
 a.navbar-left:hover, a.navbar-right:hover {
   text-decoration: none;
-  color: black;
+  color: #003366;
 }
 
 .navbar-brand {
+  color: #003366;
   position: absolute;
   top: 0;
   left: 35.5%;
-  color: black;
   font-size: 3em;
 }
 
@@ -35,7 +42,7 @@ a.navbar-left:hover, a.navbar-right:hover {
   position: absolute;
   top: 0;
   right: 15%;
-  color: black;
+  color: #003366;
   font-size: 2em;
   line-height: 100px;
 }
@@ -43,7 +50,7 @@ a.navbar-left:hover, a.navbar-right:hover {
   position: absolute;
   top: 0;
   left: 15%;
-  color: black;
+  color: #003366;
   font-size: 2em;
   line-height: 100px;
 }
